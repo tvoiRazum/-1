@@ -10,7 +10,13 @@ namespace домашняя_работа_упр1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");// нашел гарячие клавиши ctrl + 5 9 ставится точка с запятой
+            string DZ = Console.ReadLine();
+            Console.WriteLine($"Привет,{DZ}, сегодня {DateTime.Now.ToShortDateString()}");
+            Console.ReadLine();
+            
         }
+
+
+
     }
 }
